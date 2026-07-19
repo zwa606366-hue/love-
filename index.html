@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>❤️ To My KoKo A Thay Lay ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div id="loading">
+
+<h1>❤️ To My KoKo A Thay Lay ❤️</h1>
+
+<p>Touch My Heart</p>
+
+<button onclick="startLove()">❤️ OPEN ❤️</button>
+
+</div>
+
+<div id="main" style="display:none;">
+
+<h1 class="title">
+To My KoKo A Thay Lay ❤️
+</h1>
+
+<p id="typing"></p>
+
+<div class="gallery">
+
+<img id="slide" src="photo1.jpg">
+
+</div>
+
+</div>
+
+<audio id="music" loop>
+
+<source src="music.mp3" type="audio/mpeg">
+
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html><div class="love-card">
+  <h1>❤️ My Love ❤️</h1>
+  <p>You are my favorite person</p>
+  <div class="heart">♥</div>
+</div>body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#000;
+  font-family:Arial;
+}
+
+.love-card{
+  text-align:center;
+  color:white;
+  padding:40px;
+  border-radius:20px;
+  background:#111;
+  box-shadow:0 0 30px red;
+}
+
+.love-card h1{
+  color:red;
+  text-shadow:0 0 20px red;
+}
+
+.heart{
+  font-size:80px;
+  color:red;
+  animation:beat 1s infinite;
+}
+
+@keyframes beat{
+  50%{
+    transform:scale(1.3);
+  }
+}
